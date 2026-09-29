@@ -1,0 +1,16 @@
+[project]
+name = "space-debris-risk-monitor"
+version = "0.1.0"
+description = "Space Debris Risk Visualization & Collision Prediction System"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

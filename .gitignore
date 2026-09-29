@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pkl
+*.joblib
+.DS_Store
+
+# Raw dataset images (CSV metadata kept)
+debris-detection 2/train/
+debris-detection 2/val/
+debris-detection 2/test/
